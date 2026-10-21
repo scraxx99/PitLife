@@ -150,7 +150,7 @@
   <div class="status-btns">
     <button class="sbtn green"  data-status="green"  aria-pressed="false"><b>READY</b><span>Robot is ready for match</span></button>
     <button class="sbtn yellow" data-status="yellow" aria-pressed="false"><b>PREPPING</b><span>Robot is being prepped</span></button>
-    <button class="sbtn red"    data-status="red"    aria-pressed="false"><b>PROBLEM</b><span>Something is wrong, needs fixing</span></button>
+    <button class="sbtn red"    data-status="red"    aria-pressed="false"><b>BUSY</b><span>We're in Crunch Mode please Comeback Later</span></button>
   </div>
 
   <h2>Need someone in the pit?</h2>
@@ -171,7 +171,7 @@
   const LABELS = {
     green:  { big: "READY",    small: "Robot is ready for match" },
     yellow: { big: "PREPPING", small: "Robot is being prepped" },
-    red:    { big: "PROBLEM",  small: "Something is wrong — needs fixing" },
+    red:    { big: "BUSY",  small: "We're in Crunch Mode please Comeback Later" },
   };
 
   const store = {
